@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . /
 ENTRYPOINT ["python", "ISP_Anon.py"]
-CMD ["--config", "config.json"]
+CMD ["config.json"]
