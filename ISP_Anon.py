@@ -10,13 +10,6 @@ import time
 import requests
 from urllib3.exceptions import LocationParseError
 
-╔══╗╔══╗╔═╗  ╔══╗╔═╦╗╔═╗╔═╦╗
-╚║║╝║══╣║╬║  ║╔╗║║║║║║║║║║║║
-╔║║╗╠══║║╔╝  ║╠╣║║║║║║║║║║║║
-╚══╝╚══╝╚╝─  ╚╝╚╝╚╩═╝╚═╝╚╩═╝
-───────────  ───────────────
-banner()
-
 try:                 # Python 2
     from urllib.parse import urljoin, urlparse
 except ImportError:  # Python 3
@@ -69,7 +62,8 @@ class Crawler(object):
         """
         try:
             parsed_url = urlparse(link)
-        except ValueError:                                                                                                                                          # urlparse can get confused about urls with the ']'
+        except ValueError:
+            # urlparse can get confused about urls with the ']'
             # character and thinks it must be a malformed IPv6 URL
             return None
         parsed_root_url = urlparse(root_url)
@@ -93,7 +87,7 @@ class Crawler(object):
         taken from https://stackoverflow.com/questions/7160737
         :param url: url to be checked
         :return: boolean indicating whether the URL is valid or not
-"""
+        """
         regex = re.compile(
             r'^(?:http|ftp)s?://'  # http:// or https://
             r'(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|'  # domain...
@@ -181,7 +175,8 @@ class Crawler(object):
         except requests.exceptions.RequestException:
             logging.debug("Exception on URL: %s, removing from list and trying again!" % random_link)
             self._remove_and_blacklist(random_link)
-self._browse_from_links(depth + 1)
+
+        self._browse_from_links(depth + 1)
 
     def load_config_file(self, file_path):
         """
@@ -244,7 +239,7 @@ self._browse_from_links(depth + 1)
 
             except requests.exceptions.RequestException:
                 logging.warn("Error connecting to root url: {}".format(url))
-
+                
             except MemoryError:
                 logging.warn("Error: content at url: {} is exhausting the memory".format(url))
 
@@ -268,7 +263,8 @@ def main():
 
     crawler = Crawler()
     crawler.load_config_file(args.config)
-if args.timeout:
+
+    if args.timeout:
         crawler.set_option('timeout', args.timeout)
 
     crawler.crawl()
