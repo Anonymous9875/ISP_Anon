@@ -12,7 +12,7 @@ This program will make many requests per day to multiple sites from your IP, whi
 3. Download the repository:
 ▪️git clone https://github.com/Anonymous9875/ISP_Anon.git
 4. Open the directory:
-▪️cd noise
+▪️cd ISP_Anon
 5. Run the file:
 ▪️python ISP_Anon.py --config config.json
 
