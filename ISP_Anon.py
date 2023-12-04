@@ -54,8 +54,6 @@ print ('''
                          \033[93m[\033[94mTelegram : https://t.me/addlist/iZfJw-LVfYthNzYx\033[93m]\033
 
 ''')
-
-
 try:                 # Python 2
     from urllib.parse import urljoin, urlparse
 except ImportError:  # Python 3
