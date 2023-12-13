@@ -12,7 +12,6 @@ from urllib3.exceptions import LocationParseError
 
 print ('''
 \033[91m
-                                                  
   ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____ 
  ||A ||||n ||||o ||||n ||||N ||||e ||||w ||||s ||||_ ||||i ||||r ||||c ||
  ||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||
@@ -33,7 +32,7 @@ print ('''
                            .##.....##.########.
                            .##.....##.##.......
                            .##.....##.##.......
-                          ..#######..##.......
+                           ..#######..##.......
              .####..######..########.....###....########.##......
              ..##..##....##.##.....##...##.##...##.......##......
              ..##..##.......##.....##..##...##..##.......##......
@@ -47,12 +46,9 @@ print ('''
                                  :    |    :
                                  :   /|\   :
                                  `. / | \ .'
-                                   `-.:.-'  
-   
-
-                         \033[92m[\033[91mCoded By : AnonNews_irc\033[92m]  
-                         \033[93m[\033[94mTelegram : https://t.me/addlist/iZfJw-LVfYthNzYx\033[93m]\033
-
+                                   `-.:.-'             
+             \033[92m[\033[91mCoded By : AnonNews_irc\033[92m]
+\033[93m[\033[94mTelegram : https://t.me/addlist/iZfJw-LVfYthNzYx\033[93m]\033[95m|_|\033[93m[\033[94m127.217.21.78\033[93m]                                                                         
 ''')
 try:                 # Python 2
     from urllib.parse import urljoin, urlparse
@@ -71,6 +67,7 @@ class Crawler(object):
         """
         Initializes the Crawl class
         """
+     
         self._config = {}
         self._links = []
         self._start_time = None
