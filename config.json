@@ -4,17 +4,17 @@
     "max_sleep": 6,
     "timeout": false,
     "root_urls": [
-        "http://www.goodthingsshouldneverend.co.uk",
-        "https://cat-bounce.com",
-        "https://www.yahoo.com",
-        "http://www.cnn.com",
-        "https://www.google.com",
-        "http://www.ebay.com",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "https://webmail.nauta.cu",
         "https://mega.nz/file/M3Vn0YRa#-Ub6bW9967eTo5hFPnU8M3yNJbExyuJ8NGW2BnD5dI0",
-        "https://youtube.com",
+        "https://www.etecsa.cu",
         "https://trackdown-1.k-ii6.repl.co/c/fnjh2h/aHR0cHM6Ly95b3V0dS5iZS9aSGJEOXFGUHQ5RT9zaT1TUlJFU0xLV0dFMHBLaDBR",
-        "https://medium.com",
-        "https://thepiratebay.org"
+        "https://www.whatsapp.com",
+        "https://www.todus.cu"
     ],
     "blacklisted_urls": [
         "https://t.co",
