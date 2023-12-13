@@ -12,18 +12,11 @@
         "https://www.todus.cu"
     ],
     "blacklisted_urls": [
-        "https://t.co",
-        "t.umblr.com",
         "messenger.com",
         "itunes.apple.com",
-        "l.facebook.com",
-        "bit.ly",
-        "mediawiki",
         ".css",
         ".ico",
         ".xml",
-        "intent/tweet",
-        "twitter.com/share",
         "dialog/feed?",
         ".json",
         "zendesk",
