@@ -4,11 +4,6 @@
     "max_sleep": 6,
     "timeout": false,
     "root_urls": [
-        "",
-        "",
-        "",
-        "",
-        "",
         "https://webmail.nauta.cu",
         "https://mega.nz/file/M3Vn0YRa#-Ub6bW9967eTo5hFPnU8M3yNJbExyuJ8NGW2BnD5dI0",
         "https://www.etecsa.cu",
