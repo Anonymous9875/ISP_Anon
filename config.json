@@ -4,15 +4,20 @@
     "max_sleep": 6,
     "timeout": false,
     "root_urls": [
+        "http://repos.uclv.edu.cu",
+        "https://cursos.uo.edu.cu",
+        "http://ftp.uo.edu.cu",
+        "http://antivirus.uo.edu.cu",
+        "https://soft.uclv.edu.cu",
+        "http://antivirus.uclv.cu",
         "https://webmail.nauta.cu",
-        "https://mega.nz/file/M3Vn0YRa#-Ub6bW9967eTo5hFPnU8M3yNJbExyuJ8NGW2BnD5dI0",
-        "https://www.etecsa.cu",
-        "https://trackdown-1.k-ii6.repl.co/c/fnjh2h/aHR0cHM6Ly95b3V0dS5iZS9aSGJEOXFGUHQ5RT9zaT1TUlJFU0xLV0dFMHBLaDBR",
-        "https://www.whatsapp.com",
-        "https://www.todus.cu"
+        "https://correo.uo.edu.cu",
+        "https://www.uo.edu.cu",
+        "https://correo.consejo.uo.edu.cu",
+        "https://redes.uo.edu.cu",
+        "https://eva.uo.edu.cu"
     ],
     "blacklisted_urls": [
-        "messenger.com",
         "itunes.apple.com",
         ".css",
         ".ico",
