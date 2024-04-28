@@ -4,7 +4,8 @@
     "max_sleep": 6,
     "timeout": false,
     "root_urls": [
-        "https://secure.etecsa.net:8443/web/online.do?CSRFHW",
+        "https://mega.nz/file/PygUybwI#8vGW3aYpLHCXeMjNwWfMoSAGQQMbsm_oXHAgbZCwe98",
+        "https://www.etecsa.cu",
         "https://secure.etecsa.net",
         "http://repos.uclv.edu.cu",
         "https://cursos.uo.edu.cu",
